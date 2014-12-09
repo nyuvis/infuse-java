@@ -12,8 +12,6 @@ import jkanvas.painter.ColorKeyHUD;
 import jkanvas.painter.TextHUD;
 import jkanvas.util.PaintUtil;
 
-import org.jcolorbrewer.ColorBrewer;
-
 public class DataInfo {
 
   private final List<FoldNode> folds;
@@ -30,8 +28,12 @@ public class DataInfo {
     fsCount = s.countFeatureSelections();
     final int ctc = s.countCombinedTypes();
     subtype = new HashMap<>(ctc + 2);
-    final ColorBrewer palette = ColorBrewer.getQualitativeColorPalettes(true)[0];
-    final Color[] p = palette.getColorPalette(palette.getMaximumColorCount());
+    final Color[] p = {
+        new Color(166, 206, 227), new Color(31, 120, 180), new Color(178, 223, 138),
+        new Color(51, 160, 44), new Color(251, 154, 153), new Color(227, 26, 28),
+        new Color(253, 191, 111), new Color(255, 127, 0), new Color(202, 178, 214),
+        new Color(106, 61, 154), new Color(255, 255, 153)
+    };
     final List<Color> colors = new ArrayList<>(p.length / 2);
     loop: for(int i = 0; i < p.length; ++i) {
       switch(i) {
