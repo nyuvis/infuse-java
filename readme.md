@@ -4,6 +4,7 @@ INFUSE
 A Java implementation of [INFUSE](http://nyuvis.github.io/infuse/).
 
 The project can be build in eclipse or using maven.
+A runnable pre-built jar can be found [here](infuse.jar).
 When just running the project an example dataset is loaded.
 However, the following command line arguments are accepted to load other datasets:
 
