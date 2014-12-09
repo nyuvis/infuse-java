@@ -1,0 +1,14 @@
+*.log
+bin
+/java.hprof.txt
+target
+/pics/
+/*.csv.zip
+/*.dat
+/*.backup
+/gps_trips.db
+/gps_trips.db-journal
+/converter_progress.txt
+/.DS_Store
+/old_pics/
+/data.json
