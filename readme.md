@@ -8,7 +8,7 @@ When just running the project an example dataset is loaded.
 However, the following command line arguments are accepted to load other datasets:
 
 - ```-json <file>``` loads a dataset from a single JSON file.
-  The file is assumed to have the structure of [example.json](blob/master/src/main/resources/data/example.json).
+  The file is assumed to have the structure of [example.json](src/main/resources/data/example.json).
 - ```-old <path> <prefix>``` loads a dataset using the old legacy format.
 
 Optionally, the following argument can be appended in order to anonymize or convert datasets.
