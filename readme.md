@@ -38,6 +38,12 @@ However, the following command line arguments are accepted to load other dataset
             "fold": "0"
           },
           ...
+          {
+            "rank": "87",
+            "fs": "FeatureSelectionInformationGain",
+            "fold": "0"
+          },
+          ...
         ],
         "subtype": "ProblemList",
         "name": "feature#0",
