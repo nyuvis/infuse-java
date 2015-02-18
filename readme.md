@@ -10,12 +10,12 @@ However, the following command line arguments are accepted to load other dataset
 
 - ```-json <file>``` loads a dataset from a single JSON file.
   The file is assumed to have the structure of [example.json](src/main/resources/data/example.json).
-  ```json
+  ```javascript
   {
     "featureSelection":
     [
       "FeatureSelectionFisherScore",
-      ...
+      …
     ],
     "classification":
     [
@@ -25,7 +25,7 @@ However, the following command line arguments are accepted to load other dataset
         "classifier": "ClassificationTree",
         "fold": "0"
       },
-      ...
+      …
     ],
     "features":
     [
@@ -37,19 +37,19 @@ However, the following command line arguments are accepted to load other dataset
             "fs": "FeatureSelectionFisherScore",
             "fold": "0"
           },
-          ...
+          …
           {
             "rank": "87",
             "fs": "FeatureSelectionInformationGain",
             "fold": "0"
           },
-          ...
+          …
         ],
         "subtype": "ProblemList",
         "name": "feature#0",
         "type": "DIAGNOSIS"
       },
-      ...
+      …
     ]
   ```
 
