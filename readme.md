@@ -12,13 +12,11 @@ However, the following command line arguments are accepted to load other dataset
   The file is assumed to have the structure of [example.json](src/main/resources/data/example.json).
   ```javascript
 {
-  "featureSelection":
-  [
+  "featureSelection": [
     "FeatureSelectionFisherScore",
     …
   ],
-  "classification":
-  [
+  "classification": [
     {
       "auc": "0.6322",
       "fs": "FeatureSelectionFisherScore",
@@ -27,11 +25,9 @@ However, the following command line arguments are accepted to load other dataset
     },
     …
   ],
-  "features":
-  [
+  "features": [
     {
-      "ranks":
-      [
+      "ranks": [
         {
           "rank": null,
           "fs": "FeatureSelectionFisherScore",
